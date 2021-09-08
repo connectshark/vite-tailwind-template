@@ -1,5 +1,5 @@
 <template>
-  <h1 class="title">{{title}}</h1>
+  <h1 class="text-4xl text-gray-800 font-sans">{{title}}</h1>
   <router-view></router-view>
 </template>
 
@@ -14,13 +14,9 @@ export default {
 </script>
 
 
-<style lang="scss">
+<style>
 #app {
   font-family: 'openhuninn', 'Noto Sans TC', sans-serif;
   text-align: center;
-}
-.title{
-  font-size: 30px;
-  line-height: 1.9;
 }
 </style>

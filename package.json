@@ -1,5 +1,5 @@
 {
-  "name": "vite-template",
+  "name": "vite-tailwind-template",
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
@@ -15,7 +15,9 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.6.0",
     "@vue/compiler-sfc": "^3.0.5",
-    "sass": "^1.38.2",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.12",
     "vite": "^2.5.1"
   }
 }

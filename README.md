@@ -1,4 +1,4 @@
-# vite-template
+# vite-tailwind-template
 
 快速開發模板架構
 
