@@ -1,23 +1,21 @@
 {
-  "name": "vite-tailwind-template",
-  "version": "0.1.0",
+  "name": "vue-project",
+  "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "preview": "vite preview --port 5050"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "vue": "^3.2.6",
-    "vue-router": "^4.0.11",
-    "vuex": "^4.0.2"
+    "pinia": "^2.0.9",
+    "vue": "^3.2.26",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.6.0",
-    "@vue/compiler-sfc": "^3.0.5",
-    "autoprefixer": "^10.3.4",
-    "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.12",
-    "vite": "^2.5.1"
+    "@vitejs/plugin-vue": "^2.0.1",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.8",
+    "vite": "^2.7.7"
   }
 }

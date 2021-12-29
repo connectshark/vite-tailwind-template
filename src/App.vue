@@ -1,22 +1,7 @@
-<template>
-  <h1 class="text-4xl text-gray-800 font-sans">{{title}}</h1>
-  <router-view></router-view>
-</template>
-
-<script>
-export default {
-  setup () {
-    return {
-      title: 'Hello'
-    }
-  }
-}
+<script setup>
 </script>
 
-
-<style>
-#app {
-  font-family: 'openhuninn', 'Noto Sans TC', sans-serif;
-  text-align: center;
-}
-</style>
+<template>
+<h1 class=" text-center text-3xl text-blue-500 font-mono">Hello</h1>
+  <router-view />
+</template>

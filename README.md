@@ -5,7 +5,7 @@
 ## 專案已安裝內容
 
 - vue3
-- vuex4
+- pinia
 - vue-router4
-- scss
+- tailwindcss
 - github action自動部署至 `gh-page`
