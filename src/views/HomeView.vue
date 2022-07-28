@@ -2,6 +2,5 @@
 </script>
 
 <template>
-  <main>
-  </main>
+  <h1 class=" text-white text-3xl">Hi</h1>
 </template>
